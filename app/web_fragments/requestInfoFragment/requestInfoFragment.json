@@ -1,0 +1,387 @@
+{
+  "id" : "requestInfoFragment",
+  "name" : "requestInfoFragment",
+  "type" : "fragment",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1716906088194,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.requestId"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Request Id"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{request.requestId}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "f82bb82c-24ee-4a82-bf19-6b1e4021fb3a",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.requestDate"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Request Date"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{request.requestDate|uiDate}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "28973a99-74a9-4444-905f-f2a6d537dad5",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.requestorId"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Requestor"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{requestor.firstname}} {{requestor.lastname|uppercase}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "8d783398-7949-429c-bcb1-9e927ceed2cf",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.firstName"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Name"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{request.firstName}} {{request.lastName|uppercase}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "c314b41c-253f-4261-9e0b-3fa985437e81",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.email"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Email"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{request.email}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "ee242eac-e0e2-4e47-88e0-46233fbe85e1",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 12,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "allowHtml" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!request.startDate"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Dates"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{request.startDate|uiDate}} - {{request.endDate|uiDate}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "0f5795ac-ce86-4534-86b9-ab184f8478fc",
+        "hasValidationError" : false,
+        "id" : "pbText",
+        "description" : ""
+      }
+    ]
+  ],
+  "variables" : {
+    "request" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : true
+    },
+    "requestor" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/user/{{request.requestorId}}"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

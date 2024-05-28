@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="myRequests" version="1.0" profile="User" homePage="dashboard" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>My Requests</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_dashboard" token="dashboard"/>
+            <applicationPage customPage="custompage_tasklist" token="tasks"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="dashboard">
+                <displayName>Dashboard</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="tasks">
+                <displayName>My Tasks</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
